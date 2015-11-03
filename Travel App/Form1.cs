@@ -12,6 +12,21 @@ namespace Travel_App
 {
     public partial class Form1 : Form
     {
+
+        public bool checkDate(DateTime leave, DateTime go)
+        {
+            if (leave.CompareTo(DateTime.Now.AddDays(-1)) == -1)
+            {
+                MessageBox.Show("Leave date must be no ealier then today.");
+                return false;
+            }
+            else if (go.CompareTo(leave) == -1)
+            {
+                MessageBox.Show("Return date must be after leave date.");
+                return false;
+            }
+            return true;
+        }
         public Form1()
         {
             InitializeComponent();
@@ -22,30 +37,16 @@ namespace Travel_App
 
         }
 
-        private void checkBoxWest_CheckedChanged(object sender, EventArgs e)
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
-            if (checkBoxWest.Checked == true)
+            try
             {
-                // add this region to the region traveled. 
+                checkDate(dateTimePicker1.Value, dateTimePicker2.Value);
             }
-
-        }
-
-        private void checkBoxMidwest_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBoxMidwest.Checked == true)
+            catch (Exception ex)
             {
-                // add this region to the list 
+                MessageBox.Show("nope");
             }
         }
-
-        private void checkBoxEastCoast_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBoxEastCoast.Checked == true)
-            {
-
-            }
-        }
-
     }
 }
