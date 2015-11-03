@@ -48,5 +48,17 @@ namespace Travel_App
                 MessageBox.Show("nope");
             }
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                checkDate(dateTimePicker1.Value, dateTimePicker2.Value);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("nope");
+            }
+        }
     }
 }
