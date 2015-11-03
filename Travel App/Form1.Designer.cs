@@ -96,11 +96,11 @@
             treeNode109,
             treeNode110});
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBoxWest = new System.Windows.Forms.CheckBox();
+            this.checkBoxMidwest = new System.Windows.Forms.CheckBox();
+            this.checkBoxEastCoast = new System.Windows.Forms.CheckBox();
+            this.checkBoxNorthEast = new System.Windows.Forms.CheckBox();
+            this.checkBoxNorth = new System.Windows.Forms.CheckBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
@@ -143,55 +143,58 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // checkBox1
+            // checkBoxWest
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(136, 147);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(71, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = " Go West";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxWest.AutoSize = true;
+            this.checkBoxWest.Location = new System.Drawing.Point(136, 147);
+            this.checkBoxWest.Name = "checkBoxWest";
+            this.checkBoxWest.Size = new System.Drawing.Size(71, 17);
+            this.checkBoxWest.TabIndex = 1;
+            this.checkBoxWest.Text = " Go West";
+            this.checkBoxWest.UseVisualStyleBackColor = true;
+            this.checkBoxWest.CheckedChanged += new System.EventHandler(this.checkBoxWest_CheckedChanged);
             // 
-            // checkBox2
+            // checkBoxMidwest
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(280, 214);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(85, 17);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = " Go Midwest";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBoxMidwest.AutoSize = true;
+            this.checkBoxMidwest.Location = new System.Drawing.Point(280, 214);
+            this.checkBoxMidwest.Name = "checkBoxMidwest";
+            this.checkBoxMidwest.Size = new System.Drawing.Size(85, 17);
+            this.checkBoxMidwest.TabIndex = 2;
+            this.checkBoxMidwest.Text = " Go Midwest";
+            this.checkBoxMidwest.UseVisualStyleBackColor = true;
+            this.checkBoxMidwest.CheckedChanged += new System.EventHandler(this.checkBoxMidwest_CheckedChanged);
             // 
-            // checkBox3
+            // checkBoxEastCoast
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(414, 250);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(97, 17);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = " Go East Coast";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxEastCoast.AutoSize = true;
+            this.checkBoxEastCoast.Location = new System.Drawing.Point(414, 250);
+            this.checkBoxEastCoast.Name = "checkBoxEastCoast";
+            this.checkBoxEastCoast.Size = new System.Drawing.Size(97, 17);
+            this.checkBoxEastCoast.TabIndex = 3;
+            this.checkBoxEastCoast.Text = " Go East Coast";
+            this.checkBoxEastCoast.UseVisualStyleBackColor = true;
+            this.checkBoxEastCoast.CheckedChanged += new System.EventHandler(this.checkBoxEastCoast_CheckedChanged);
             // 
-            // checkBox4
+            // checkBoxNorthEast
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(575, 80);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(91, 17);
-            this.checkBox4.TabIndex = 4;
-            this.checkBox4.Text = " Go NE Coast";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBoxNorthEast.AutoSize = true;
+            this.checkBoxNorthEast.Location = new System.Drawing.Point(575, 80);
+            this.checkBoxNorthEast.Name = "checkBoxNorthEast";
+            this.checkBoxNorthEast.Size = new System.Drawing.Size(91, 17);
+            this.checkBoxNorthEast.TabIndex = 4;
+            this.checkBoxNorthEast.Text = " Go NE Coast";
+            this.checkBoxNorthEast.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // checkBoxNorth
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(431, 96);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(72, 17);
-            this.checkBox5.TabIndex = 5;
-            this.checkBox5.Text = " Go North";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBoxNorth.AutoSize = true;
+            this.checkBoxNorth.Location = new System.Drawing.Point(431, 96);
+            this.checkBoxNorth.Name = "checkBoxNorth";
+            this.checkBoxNorth.Size = new System.Drawing.Size(72, 17);
+            this.checkBoxNorth.TabIndex = 5;
+            this.checkBoxNorth.Text = " Go North";
+            this.checkBoxNorth.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker1
             // 
@@ -200,7 +203,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 6;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // dateTimePicker2
             // 
@@ -502,11 +504,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.checkBoxNorth);
+            this.Controls.Add(this.checkBoxNorthEast);
+            this.Controls.Add(this.checkBoxEastCoast);
+            this.Controls.Add(this.checkBoxMidwest);
+            this.Controls.Add(this.checkBoxWest);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -528,11 +530,11 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBoxWest;
+        private System.Windows.Forms.CheckBox checkBoxMidwest;
+        private System.Windows.Forms.CheckBox checkBoxEastCoast;
+        private System.Windows.Forms.CheckBox checkBoxNorthEast;
+        private System.Windows.Forms.CheckBox checkBoxNorth;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label1;
