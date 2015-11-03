@@ -21,5 +21,31 @@ namespace Travel_App
         {
 
         }
+
+        private void checkBoxWest_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxWest.Checked == true)
+            {
+                // add this region to the region traveled. 
+            }
+
+        }
+
+        private void checkBoxMidwest_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxMidwest.Checked == true)
+            {
+                // add this region to the list 
+            }
+        }
+
+        private void checkBoxEastCoast_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxEastCoast.Checked == true)
+            {
+
+            }
+        }
+
     }
 }
