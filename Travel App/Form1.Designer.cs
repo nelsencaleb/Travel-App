@@ -29,72 +29,72 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("St. Paul");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Branson");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Des Moines");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Minneapolis");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Mid West", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4});
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Los Angeles");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Tri-Cities");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Los Vages");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Seattle");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("West", new System.Windows.Forms.TreeNode[] {
-            treeNode6,
-            treeNode7,
-            treeNode8,
-            treeNode9});
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("New York");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Chicago");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Detroit");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("New Jersey");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("North", new System.Windows.Forms.TreeNode[] {
-            treeNode11,
-            treeNode12,
-            treeNode13,
-            treeNode14});
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Washington D.C.");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Tampa Bay");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Orlando");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Little Rock");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("East Coast", new System.Windows.Forms.TreeNode[] {
-            treeNode16,
-            treeNode17,
-            treeNode18,
-            treeNode19});
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Brattleboro");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Manchester");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Portland");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Augusta");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("NE Coast", new System.Windows.Forms.TreeNode[] {
-            treeNode21,
-            treeNode22,
-            treeNode23,
-            treeNode24});
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("1 Bedroom");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("2 Bedroom");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Family Bedroom");
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Comfort Inn", new System.Windows.Forms.TreeNode[] {
-            treeNode26,
-            treeNode27,
-            treeNode28});
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("1 Bedroom");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("2 Bedroom");
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Family Bedroom");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Econo Lodge", new System.Windows.Forms.TreeNode[] {
-            treeNode30,
-            treeNode31,
-            treeNode32});
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("1 Bedroom");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("2 Bedroom");
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Family Bedroom");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Rodeway Inn", new System.Windows.Forms.TreeNode[] {
-            treeNode34,
-            treeNode35,
-            treeNode36});
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("St. Paul");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Branson");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Des Moines");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Minneapolis");
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Mid West", new System.Windows.Forms.TreeNode[] {
+            treeNode38,
+            treeNode39,
+            treeNode40,
+            treeNode41});
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Los Angeles");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Tri-Cities");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Los Vages");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Seattle");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("West", new System.Windows.Forms.TreeNode[] {
+            treeNode43,
+            treeNode44,
+            treeNode45,
+            treeNode46});
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("New York");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Chicago");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Detroit");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("New Jersey");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("North", new System.Windows.Forms.TreeNode[] {
+            treeNode48,
+            treeNode49,
+            treeNode50,
+            treeNode51});
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Washington D.C.");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Tampa Bay");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Orlando");
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Little Rock");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("East Coast", new System.Windows.Forms.TreeNode[] {
+            treeNode53,
+            treeNode54,
+            treeNode55,
+            treeNode56});
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Brattleboro");
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Manchester");
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Portland");
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Augusta");
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("NE Coast", new System.Windows.Forms.TreeNode[] {
+            treeNode58,
+            treeNode59,
+            treeNode60,
+            treeNode61});
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("1 Bedroom");
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("2 Bedroom");
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("Family Bedroom");
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("Comfort Inn", new System.Windows.Forms.TreeNode[] {
+            treeNode63,
+            treeNode64,
+            treeNode65});
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("1 Bedroom");
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("2 Bedroom");
+            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("Family Bedroom");
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("Econo Lodge", new System.Windows.Forms.TreeNode[] {
+            treeNode67,
+            treeNode68,
+            treeNode69});
+            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("1 Bedroom");
+            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("2 Bedroom");
+            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("Family Bedroom");
+            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("Rodeway Inn", new System.Windows.Forms.TreeNode[] {
+            treeNode71,
+            treeNode72,
+            treeNode73});
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -319,62 +319,62 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(712, 28);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node1";
-            treeNode1.Text = "St. Paul";
-            treeNode2.Name = "Node2";
-            treeNode2.Text = "Branson";
-            treeNode3.Name = "Node4";
-            treeNode3.Text = "Des Moines";
-            treeNode4.Name = "Node5";
-            treeNode4.Text = "Minneapolis";
-            treeNode5.Name = "Mid West";
-            treeNode5.Text = "Mid West";
-            treeNode6.Name = "Node7";
-            treeNode6.Text = "Los Angeles";
-            treeNode7.Name = "Node8";
-            treeNode7.Text = "Tri-Cities";
-            treeNode8.Name = "Node9";
-            treeNode8.Text = "Los Vages";
-            treeNode9.Name = "Node10";
-            treeNode9.Text = "Seattle";
-            treeNode10.Name = "Node6";
-            treeNode10.Text = "West";
-            treeNode11.Name = "Node12";
-            treeNode11.Text = "New York";
-            treeNode12.Name = "Node13";
-            treeNode12.Text = "Chicago";
-            treeNode13.Name = "Node14";
-            treeNode13.Text = "Detroit";
-            treeNode14.Name = "Node15";
-            treeNode14.Text = "New Jersey";
-            treeNode15.Name = "Node11";
-            treeNode15.Text = "North";
-            treeNode16.Name = "Node17";
-            treeNode16.Text = "Washington D.C.";
-            treeNode17.Name = "Node18";
-            treeNode17.Text = "Tampa Bay";
-            treeNode18.Name = "Node19";
-            treeNode18.Text = "Orlando";
-            treeNode19.Name = "Node20";
-            treeNode19.Text = "Little Rock";
-            treeNode20.Name = "Node16";
-            treeNode20.Text = "East Coast";
-            treeNode21.Name = "Node22";
-            treeNode21.Text = "Brattleboro";
-            treeNode22.Name = "Node23";
-            treeNode22.Text = "Manchester";
-            treeNode23.Name = "Node24";
-            treeNode23.Text = "Portland";
-            treeNode24.Name = "Node25";
-            treeNode24.Text = "Augusta";
-            treeNode25.Name = "Node21";
-            treeNode25.Text = "NE Coast";
+            treeNode38.Name = "Node1";
+            treeNode38.Text = "St. Paul";
+            treeNode39.Name = "Node2";
+            treeNode39.Text = "Branson";
+            treeNode40.Name = "Node4";
+            treeNode40.Text = "Des Moines";
+            treeNode41.Name = "Node5";
+            treeNode41.Text = "Minneapolis";
+            treeNode42.Name = "Mid West";
+            treeNode42.Text = "Mid West";
+            treeNode43.Name = "Node7";
+            treeNode43.Text = "Los Angeles";
+            treeNode44.Name = "Node8";
+            treeNode44.Text = "Tri-Cities";
+            treeNode45.Name = "Node9";
+            treeNode45.Text = "Los Vages";
+            treeNode46.Name = "Node10";
+            treeNode46.Text = "Seattle";
+            treeNode47.Name = "Node6";
+            treeNode47.Text = "West";
+            treeNode48.Name = "Node12";
+            treeNode48.Text = "New York";
+            treeNode49.Name = "Node13";
+            treeNode49.Text = "Chicago";
+            treeNode50.Name = "Node14";
+            treeNode50.Text = "Detroit";
+            treeNode51.Name = "Node15";
+            treeNode51.Text = "New Jersey";
+            treeNode52.Name = "Node11";
+            treeNode52.Text = "North";
+            treeNode53.Name = "Node17";
+            treeNode53.Text = "Washington D.C.";
+            treeNode54.Name = "Node18";
+            treeNode54.Text = "Tampa Bay";
+            treeNode55.Name = "Node19";
+            treeNode55.Text = "Orlando";
+            treeNode56.Name = "Node20";
+            treeNode56.Text = "Little Rock";
+            treeNode57.Name = "Node16";
+            treeNode57.Text = "East Coast";
+            treeNode58.Name = "Node22";
+            treeNode58.Text = "Brattleboro";
+            treeNode59.Name = "Node23";
+            treeNode59.Text = "Manchester";
+            treeNode60.Name = "Node24";
+            treeNode60.Text = "Portland";
+            treeNode61.Name = "Node25";
+            treeNode61.Text = "Augusta";
+            treeNode62.Name = "Node21";
+            treeNode62.Text = "NE Coast";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode5,
-            treeNode10,
-            treeNode15,
-            treeNode20,
-            treeNode25});
+            treeNode42,
+            treeNode47,
+            treeNode52,
+            treeNode57,
+            treeNode62});
             this.treeView1.Size = new System.Drawing.Size(200, 89);
             this.treeView1.TabIndex = 19;
             // 
@@ -416,44 +416,45 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(317, 402);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 13);
+            this.label5.Size = new System.Drawing.Size(84, 13);
             this.label5.TabIndex = 25;
-            this.label5.Text = "Choose A City:";
+            this.label5.Text = "Choose A Hotel:";
             // 
             // treeView2
             // 
             this.treeView2.Location = new System.Drawing.Point(399, 402);
             this.treeView2.Name = "treeView2";
-            treeNode26.Name = "Node5";
-            treeNode26.Text = "1 Bedroom";
-            treeNode27.Name = "Node0";
-            treeNode27.Text = "2 Bedroom";
-            treeNode28.Name = "Node1";
-            treeNode28.Text = "Family Bedroom";
-            treeNode29.Name = "Mid West";
-            treeNode29.Text = "Comfort Inn";
-            treeNode30.Name = "Node3";
-            treeNode30.Text = "1 Bedroom";
-            treeNode31.Name = "Node4";
-            treeNode31.Text = "2 Bedroom";
-            treeNode32.Name = "Node5";
-            treeNode32.Text = "Family Bedroom";
-            treeNode33.Name = "Node2";
-            treeNode33.Text = "Econo Lodge";
-            treeNode34.Name = "Node7";
-            treeNode34.Text = "1 Bedroom";
-            treeNode35.Name = "Node8";
-            treeNode35.Text = "2 Bedroom";
-            treeNode36.Name = "Node9";
-            treeNode36.Text = "Family Bedroom";
-            treeNode37.Name = "Node6";
-            treeNode37.Text = "Rodeway Inn";
+            treeNode63.Name = "Node5";
+            treeNode63.Text = "1 Bedroom";
+            treeNode64.Name = "Node0";
+            treeNode64.Text = "2 Bedroom";
+            treeNode65.Name = "Node1";
+            treeNode65.Text = "Family Bedroom";
+            treeNode66.Name = "Mid West";
+            treeNode66.Text = "Comfort Inn";
+            treeNode67.Name = "Node3";
+            treeNode67.Text = "1 Bedroom";
+            treeNode68.Name = "Node4";
+            treeNode68.Text = "2 Bedroom";
+            treeNode69.Name = "Node5";
+            treeNode69.Text = "Family Bedroom";
+            treeNode70.Name = "Node2";
+            treeNode70.Text = "Econo Lodge";
+            treeNode71.Name = "Node7";
+            treeNode71.Text = "1 Bedroom";
+            treeNode72.Name = "Node8";
+            treeNode72.Text = "2 Bedroom";
+            treeNode73.Name = "Node9";
+            treeNode73.Text = "Family Bedroom";
+            treeNode74.Name = "Node6";
+            treeNode74.Text = "Rodeway Inn";
             this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode29,
-            treeNode33,
-            treeNode37});
+            treeNode66,
+            treeNode70,
+            treeNode74});
             this.treeView2.Size = new System.Drawing.Size(200, 55);
             this.treeView2.TabIndex = 24;
+            this.treeView2.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
             // 
             // listView1
             // 

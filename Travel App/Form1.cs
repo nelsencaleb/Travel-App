@@ -16,5 +16,10 @@ namespace Travel_App
         {
             InitializeComponent();
         }
+
+        private void treeView2_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
     }
 }
