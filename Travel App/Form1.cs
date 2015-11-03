@@ -13,6 +13,7 @@ namespace Travel_App
     public partial class Form1 : Form
     {
 
+        
         public bool checkDate(DateTime leave, DateTime go)
         {
             if (leave.CompareTo(DateTime.Now.AddDays(-1)) == -1)
@@ -48,5 +49,14 @@ namespace Travel_App
                 MessageBox.Show("nope");
             }
         }
+
+        private void checkBoxWest_CheckedChanged(object sender, EventArgs e)
+        {
+            if ( checkBoxWest.Checked == true) 
+            {
+            }
+        }
     }
+
+    
 }
